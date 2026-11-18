@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ind.css">
+    <script src="in.js"></script>
+    <title>Project_2</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <img src="Black.jpeg" alt="Black Coffee">
+            <div class="info">
+                <h2>Black Coffee</h2>
+                <p>Calories - 85 cal<br>Serving - 235 ml<br>Added  Sugar - 3 tsp</p>
+                <h4>For just $2<br>Support for $3</h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Milk.jpeg" alt="Milk Coffee">
+            <div class="info">
+                <h2>Milk Coffee</h2>
+                <p>Calories - 93 cal<br>Serving - 300 ml<br>Added  Sugar - 4 tsp</p>
+                <h4>For just $4<br>Support for $5</h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Cappuccino.jpeg" alt="Cappuccino">
+            <div class="info">
+                <h2>Cappuccino</h2>
+                <p>Calories - 110 cal<br>Serving - 300 ml<br>Added  Sugar - 4 tsp</p>
+                <h4>For just $4<br>Support for $5</h4>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Latte.jpeg" alt="Coffee Latte">
+            <div class="info">
+                <h2>Coffee Latte</h2>
+                <p>Calories - 200 cal<br>Serving - 290 ml<br>Added  Sugar - 3 tsp</p>
+                <h4>For just $6<br>Support for $7</h4>
+            </div>
+        </div>
+        <div class="custom-support">
+            <img src="jar.jpeg" alt="Coffee Pot">
+            <div class="support-input">
+                <label for="price">Support for</label>
+                <input type="number" id="price" name="price" min="1">
+                <button href="indian.html" onclick="processPayment()">Pay</button>
+            </div>
+        </div>
+    </div>
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <p id="modalMessage"></p>
+            <button onclick="closeModal()">OK</button>
+        </div>
+    </div>
+    
